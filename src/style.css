@@ -1,0 +1,370 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+/* Etiquetas generales */
+
+span {
+    color: red;
+}
+
+/*Encabezado de la pagina*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+    height: 33px;
+    align-items: center;
+}
+
+.header-button {
+    border-radius: 30px;
+    width: 120px;
+    height: 35px;
+    background: red;
+    color: white;
+    border-color: rgb(255, 255, 255, 0);
+}
+
+.header-logo {
+    width: 80px;
+}
+
+/*Primera section de la pagina*/
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Segunda section de la pagina / Formulario */
+
+.section2 {
+    width: 800px;
+
+    background: whitesmoke;
+    margin-left: 250px;
+    border-radius: 20px;
+
+}
+
+.section2 span {
+    color: darkgrey;
+    font-size: small;
+}
+
+.section2-text {
+    border-top: 7px solid red;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.section2-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    align-items: center;
+    padding: 20px 0;
+
+}
+
+.section2-inputs input {
+    border-radius: 30px;
+    height: 30px;
+    border-color: rgb(255, 255, 255, 0);
+    background-color: gainsboro;
+    width: 90%;
+    
+}
+
+.section2-button {
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    background: black;
+    color: white;
+}
+
+/* tercera section de la pagina */
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.section3-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section3-container h6 {
+    padding: 20px 0;
+}
+
+.section3-container p {
+    padding: 40px;
+    color: gray;
+    text-align: center;
+}
+
+/* Cuarta section de la pagina  */
+
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    /* este gr id me sirve para cuando quiera poner todo en orden encima de otro  */
+
+    padding: 100px;
+    gap: 40px;
+
+}
+
+.tarjeta {
+    width: 300px;
+    border-radius: 30px;
+    background: rgba(179, 173, 173, 0.1);
+    padding: 50px 30px;
+    box-shadow: 0 0 10px 0 rgba(179, 173, 173, 0.4);
+}
+
+.tarjeta p {
+    color: gray;
+}
+
+/* Cuarta section de la pagina */
+
+
+.section4 {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.section4-container {
+    width: 350px;
+    margin-left: 50px;
+}
+
+.section4-container button {
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(rgb(223, 11, 11) 0, rgb(207, 51, 51) 100%);
+    color: white;
+    border: none;
+}
+
+.section4 img {
+    width: 700px;
+}
+
+.section4 p {
+    color: gray;
+    margin: 20px 0;
+}
+
+
+/* Quinta section de la pagina */
+
+.section5-title {
+    text-align: center;
+}
+
+/*secta section*/
+
+.section6-tarjeta {
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 0 5px 0;
+    height: 400px;
+margin: 25px;
+}
+
+.section6-tarjeta span {
+    color: darkgrey;
+    font-size: small;
+}
+
+.section6-tarjeta-info {
+    color: white;
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+}
+
+.section6-tarjeta-info div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.section6-tarjeta .carro {
+    width: 300px;
+}
+
+.section6{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 60px;
+}
+
+.carro-bug{
+    margin-top: 60px;
+    width: 300px;
+}
+
+/*septima section*/
+
+.section7 {
+    display: flex;
+}
+
+.section7-texto {
+    width: 500px;
+    text-align: start;
+    padding: 100px;
+    margin-right: 120px;
+}
+
+h5 {
+    padding: 20px;
+}
+
+/*octava section*/
+
+.section8 {
+    display: flex;
+    background: rgb(207, 51, 51);
+    width: 1000px;
+    height: 200px;
+    border-radius: 30px;
+    margin: 100px;
+}
+
+.auto {
+    width: 700px;
+    height: 500px;
+}
+
+.section8-texto{
+    width: 300px;
+    padding-top: 60px;
+    color: white;
+}
+
+.section8 h3{
+    color: white;
+}
+
+.section8 h2{
+    color: white;
+}
+
+.foto{
+    width: 200px;
+    height: 130px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+/* novena section*/
+
+.section9{
+display: flex;
+padding: 230px;
+gap: 300px;
+}
+
+.section9-texto{
+    margin-left: 100px;
+}
+
+.boton{
+    width: 200px;
+    height: 100px;
+    display: flex;
+
+}
+
+.section9 h1{
+    font-size: x-large;
+}
+
+/*decimo section*/
+
+.section10{
+    display: flex;
+justify-content: center;
+    gap: 70px;
+}
+
+.section10-tarjetas{
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px 0;
+    border-radius: 20px;
+    border-bottom: 10px solid red;
+}
+
+.section10-imagen1{
+    padding: 10px;
+    width: 150px;
+}
+
+.section10-imagen2{
+    padding: 20px;
+}
+
+.section10 p{
+    padding: 15px;
+}
+
+/*section once*/
+
+.section11{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 170px;
+}
+
+/*footer*/
+
+footer{
+    background: gainsboro;
+    display: flex;
+    align-items: center;
+}
+
+.footer-ferrari{
+    width: 80px;
+}
+
+.footer-texto{
+    display: flex;
+    flex-direction: column;
+    margin-left: 480px;
+}
+
+.footer-texto h5{
+color: grey;
+}
+
+.footer-telefono{
+    margin-left: 200px;
+}
